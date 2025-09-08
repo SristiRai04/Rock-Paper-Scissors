@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.heading{
+    height: 50px;
+    background-color: rgb(145, 171, 194);
+    width: 100%;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size:35px;
+}
+.rounds{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    font-size: 30px;
+    
+}
+.container{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap:55px;
+    margin-top: 20px;
+}
+    
+.choice{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    background-color: rgb(177, 123, 154);
+}
+.choice:hover{
+    border:5px solid rgb(218, 182, 115);
+
+}
+.img{
+    height: 130px;
+    width: 130px;
+}
+.score{
+    background-color: antiquewhite;
+    font-size: 30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 40px;
+}
+.game-score{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap:60px;
+    font-size: 25px;
+}
+.p1,.p2,.p3,.p4{
+    margin-top: 0.5rem;
+    text-align: center;
+}
+.msg-text{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 3rem;
+
+}
+#msg{
+    font-size: 1.8rem;
+    background-color: rgb(89, 83, 83);
+    color: aliceblue;
+    display: inline;
+    border-radius: 10px;
+}
